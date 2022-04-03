@@ -1,9 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable semi,quotes */
 
-function App() {
+import { Fragment } from "react";
+import Layout from "./components/Layout/Layout";
+import Login from "./components/Login/Login";
+
+function App () {
   return (
-     <div>Starting Project</div>
+    <Fragment>
+     <Layout></Layout>
+    <Login />
+    </Fragment>
   );
 }
 

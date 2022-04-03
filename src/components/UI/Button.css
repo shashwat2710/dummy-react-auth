@@ -1,0 +1,21 @@
+button {
+  padding: 0.60rem 2.5rem;
+  color: white;
+  background-color: #a88ccf;
+  border: none;
+  border-radius: 2px;
+  font-weight: 550;
+  font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: purple;
+}
+
+button:active {
+  cursor: progress;
+  color: black;
+  background-color: white;
+}
+/*# sourceMappingURL=Button.css.map */
